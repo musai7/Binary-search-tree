@@ -33,7 +33,6 @@ public class BinaryTree<K extends Comparable<K>> {
 			inOrderRec(this.root);
 		}
 		private void inOrderRec(MyBinaryNode<K> root) {
-			count++;
 			if(root != null) {
 
 				inOrderRec(root.left);
